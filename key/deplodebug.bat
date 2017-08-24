@@ -1,5 +1,5 @@
 @echo off
 @echo signing APK
-java -jar D:\Projetos\Recorder\key\signapk.jar D:\Projetos\Recorder\key\platform.x509.pem D:\Projetos\Recorder\key\platform.pk8 D:\Projetos\Recorder\app\build\outputs\apk\app-debug.apk D:\Projetos\Recorder\app\build\outputs\apk\app-debug_signed.apk
+java -jar C:\Projetos\zelaznog-recorder\key\signapk.jar C:\Projetos\zelaznog-recorder\key\platform.x509.pem C:\Projetos\zelaznog-recorder\key\platform.pk8 C:\Projetos\zelaznog-recorder\app\build\outputs\apk\app-debug.apk C:\Projetos\zelaznog-recorder\app\build\outputs\apk\app-debug_signed.apk
 @echo Done!
 pause
